@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background:#A8E6CF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.container {
+  background:#DDEDC4;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 600px;
+}
+
+h1 {
+  color: #002252;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.note-input textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #FFD4B8;
+  resize: none;
+  height: 80px;
+}
+
+.note-input button {
+  margin-top: 10px;
+  width: 105%;
+  padding: 10px;
+  background: #FFADAD;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.note-input button:hover {
+  transform: scale(1.05);
+}
+
+#notesContainer {
+  margin-top: 20px;
+}
+
+.note {
+  background: #fef3d4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.note button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: red;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+
+@media(max-width: 450px) {
+  .container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
