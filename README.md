@@ -7,3 +7,4 @@ Read Notes – Display all saved notes.
 Delete Notes – Remove unwanted notes.
 LocalStorage – Notes remain even after page reload.
 Responsive Design – Works on desktop, tablet, and mobile.
+<img width="1904" height="608" alt="note-app look like this" src="https://github.com/user-attachments/assets/64d26d12-e2c6-444c-8025-d5be460e67d8" />
